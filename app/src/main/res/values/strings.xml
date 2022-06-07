@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ABOUT WORLD</string>
+    <string name="travel_app">Travel App</string>
+    <string name="v1_0">V1.0</string>
+    <string name="lets_start_our_adventure">Lets start our adventure</string>
+    <string name="about_world">ABOUT WORLD</string>
+    <string name="welcome_to_tempellmahbang">Welcome to Tempellmahbang</string>
+    <string name="welcome_to_ABOUT_WORLD">Welcom To ABOUT WORLD</string>
+    <string name="welcome_to_About_World">Welcome to About World</string>
+    <string name="sign_in_to_continue">sign In to Continue</string>
+    <string name="Sign_in_to_continue">Sign In to continue</string>
+</resources>

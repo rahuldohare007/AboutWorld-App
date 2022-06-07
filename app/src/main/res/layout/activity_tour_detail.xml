@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:scaleType="centerCrop">
+
+        <ImageView
+            android:id="@+id/img_tour"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:adjustViewBounds="true"
+            android:background="@color/grey"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/name_tour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="Name Tour"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:translationY="25dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/btn_img_loc"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="-40dp"
+                android:background="@drawable/button_background"
+                android:backgroundTint="@color/violet_1"
+                android:contentDescription="@null"
+                android:elevation="6dp"
+                android:gravity="center|right"
+                android:src="@drawable/ic_loc"
+                android:translationX="305dp"
+                android:translationY="-25dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/desc_tour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:fontFamily="sans-serif"
+            android:text="Desc Tour"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+        
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="5dp">
+
+            <Button
+                android:id="@+id/btn_subCount"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/orange_1"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txt_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="count"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_addCount"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/orange_1"
+                android:text="+"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/txt_Rp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="Rp Price Tour"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+        <Button
+            android:id="@+id/btn_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:transitionName="txt_login_signup"
+            android:text="PAY"
+            android:backgroundTint="@color/violet_1"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+</LinearLayout>
